@@ -3,6 +3,7 @@ body{
   }
 
 header {
+border: 2px black solid;
 width: 480px;
 height: 75px;
 text-align: center;
@@ -15,6 +16,7 @@ section :nth-of-type(1) {
   width: 480px;
   height: 150px;
   text-align: center;
+  line-height: 150px;
   background-color: rgb(172, 204, 57);
 }
 section :nth-of-type(2), 
@@ -23,6 +25,7 @@ section :nth-of-type(2),
   width: 480px;
   height: 125px;
   text-align: center;
+  line-height: 125px;
   background-color: rgb(187, 79, 88);
 }
 section :nth-of-type(3) {
@@ -34,6 +37,7 @@ section :nth-of-type(4), section :nth-of-type(5),section :nth-of-type(6), sectio
   width: 240px;
   height: 250px;
   text-align: center;
+  line-height: 250px;
   float: left;
   background-color: darkturquoise;
 }
@@ -52,7 +56,9 @@ footer {
   width: 480px;
   height: 80px;
   text-align: center;
-  background-color: lavender;
+  line-height: 80px;
+  background-color: rgb(196, 51, 58);
+  float: left;
 }
 
 @media only screen and (min-width:768px){
@@ -61,9 +67,11 @@ footer {
     }
 
 header {
-  height: 100px;
   width: 960px;
+  height: 100px;
   text-align: center;
+  line-height: 100px;
+  background-color: brown;
 }
 
 
