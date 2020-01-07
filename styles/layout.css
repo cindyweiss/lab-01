@@ -10,26 +10,26 @@ line-height: 75px;
 background-color: cadetblue;
 }
 
-div :nth-of-type(1) {
+section :nth-of-type(1) {
   border: 2px black solid;
   width: 480px;
   height: 150px;
   text-align: center;
-  background-color: cyan;
+  background-color: rgb(172, 204, 57);
 }
-div :nth-of-type(2) 
-  div :nth-of-type(3) {
+section :nth-of-type(2), 
+  section :nth-of-type(3) {
   border: 2px black solid;
   width: 480px;
   height: 125px;
   text-align: center;
-  background-color: darkkhaki;
+  background-color: rgb(187, 79, 88);
 }
-div :nth-of-type(3) {
-background-color: bisque;
+section :nth-of-type(3) {
+background-color: rgb(92, 152, 231);
 }
 
-div :nth-of-type(4)div :nth-of-type(5)div :nth-of-type(6)div :nth-of-type(7) {
+section :nth-of-type(4), section :nth-of-type(5),section :nth-of-type(6), section :nth-of-type(7) {
   border: 2px black solid;
   width: 240px;
   height: 250px;
@@ -37,13 +37,13 @@ div :nth-of-type(4)div :nth-of-type(5)div :nth-of-type(6)div :nth-of-type(7) {
   float: left;
   background-color: darkturquoise;
 }
-div :nth-of-type(5){
-  background-color: floralwhite;
+section :nth-of-type(5){
+  background-color: rgb(221, 159, 33);
 }
-div :nth-of-type(6) {
+section :nth-of-type(6) {
   background-color: greenyellow;
 }
-div :nth-of-type(7) {
+section :nth-of-type(7) {
   background-color: hotpink;
 }
 
