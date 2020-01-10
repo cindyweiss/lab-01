@@ -1,21 +1,127 @@
-section{
+body{
   width: 480px;
-  height: 767px;
-  border: 2px black solid;
-  margin: auto;
+  }
+
+header {
+border: 2px black solid;
+width: 480px;
+height: 75px;
+text-align: center;
+line-height: 75px;
+background-color: cadetblue;
 }
 
-div .a {
+section :nth-of-type(1) {
   border: 2px black solid;
   width: 480px;
-  height: 75px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  background-color: rgb(172, 204, 57);
+}
+section :nth-of-type(2), 
+  section :nth-of-type(3) {
+  border: 2px black solid;
+  width: 480px;
+  height: 125px;
+  text-align: center;
+  line-height: 125px;
+  background-color: rgb(187, 79, 88);
+}
+section :nth-of-type(3) {
+background-color: rgb(92, 152, 231);
+}
+
+section :nth-of-type(4), section :nth-of-type(5),section :nth-of-type(6), section :nth-of-type(7) {
+  border: 2px black solid;
+  width: 240px;
+  height: 250px;
+  text-align: center;
+  line-height: 250px;
+  float: left;
+  background-color: darkturquoise;
+}
+section :nth-of-type(5){
+  background-color: rgb(221, 159, 33);
+}
+section :nth-of-type(6) {
+  background-color: greenyellow;
+}
+section :nth-of-type(7) {
+  background-color: hotpink;
+}
+
+footer {
+  border: 2px black solid;
+  width: 480px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background-color: rgb(214, 49, 219);
+  float: left;
 }
 
 @media only screen and (min-width:768px){
-  section{
+  body{
     width: 960px;
-    margin: auto; 
-    border: 2px black solid;
+    }
+
+header {
+  width: 960px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: rgb(171, 120, 253);
+}
+section :nth-of-type(1) {
+  border: 2px black solid;
+  width: 200px;
+  height: 600px;
+  text-align: center;
+  line-height: 600px;
+  background-color: rgb(21, 77, 16);
+  float: left;
+}
+section :nth-of-type(2), 
+  section :nth-of-type(3) {
+  border: 2px black solid;
+  width: 380px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  background-color: rgb(27, 158, 49);
+  float: right;
+}
+section :nth-of-type(3) {
+background-color: rgb(176, 63, 204);
+}
+
+section :nth-of-type(4), section :nth-of-type(5),section :nth-of-type(6), section :nth-of-type(7) {
+  border: 2px black solid;
+  width: 190px;
+  height: 250px;
+  text-align: center;
+  line-height: 250px;
+  float: left;
+  background-color: darkturquoise;
+}
+section :nth-of-type(5){
+  background-color: rgb(221, 159, 33);
+}
+section :nth-of-type(6) {
+  background-color: greenyellow;
+}
+section :nth-of-type(7) {
+  background-color: lightcoral;
+}
+
+footer {
+  width: 760px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  background-color: rgb(238, 52, 52);
+  float: right;
 }
 
 
